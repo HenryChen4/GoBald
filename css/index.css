@@ -1,0 +1,49 @@
+/*
+set website default styles
+*/
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+navbar styles in descending order
+*/
+#navbar {
+    background-color: #32a852;
+    height: 5%;
+    width: 90%;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+.navbar_right_item {
+    display: flex;
+}
+
+.navbar_item {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.navbar_link {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar_link:hover {
+	color: #54c3ff;
+}
